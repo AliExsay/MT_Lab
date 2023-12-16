@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="camera_buttons">
+        <item name="android:layout_width">wrap_content</item>>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:backgroundTint">#4D7EFF8A</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+</resources>
