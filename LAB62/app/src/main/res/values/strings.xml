@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LAB6</string>
+    <string name="camera_btn_description">Camera</string>
+    <string name="image_view_description">Pictures</string>
+    <string name="footer">Creted by Yurkovsky</string>
+    <string name="previous_btn_text">Previous</string>
+    <string name="next_btn_text">Next</string>
+    <string name="empty_gallery">0 / 0</string>
+    <string name="gallery_btn_description">Gallery</string>
+    <string name="media_btn_description">Media</string>
+    <string name="previous_btn_description">Previous</string>
+    <string name="next_btn_description">Next</string>
+    <string name="radio_audio">Audio</string>
+    <string name="radio_video">Video</string>
+    <string name="play_btn_description">Play</string>
+    <string name="pause_btn_description">Pause</string>
+    <string name="stop_btn_description">Stop</string>
+    <string name="song">Dave Brubeck - Take Five</string>
+</resources>
