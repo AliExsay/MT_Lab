@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Memory game (by Yaroslav Evchuk)</string>
+    <string name="gameName">MEMORY GAME</string>
+    <string name="author">(by Evchuk)</string>
+    <string name="START">START</string>
+    <string name="EXIT">EXIT</string>
+    <string name="CD_card">CARD</string>
+    <string name="timer">Time: %1$s с</string>
+    <string name="moves">Moves: %1$d</string>
+</resources>
