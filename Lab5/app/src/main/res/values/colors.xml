@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="your_custom_primary_color">#FF5722</color> <!-- Пример: Оранжевый цвет -->
+    <color name="your_custom_primary_variant_color">#E64A19</color> <!-- Пример: Вариант оранжевого цвета -->
+</resources>
