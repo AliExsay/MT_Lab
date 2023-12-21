@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="ID записи"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/IDtextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="300dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-183dp"></TextView>
+
+    <Button
+        android:id="@+id/DelButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:text="Удалить"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:cornerRadius="0dp"
+        android:onClick="DelButtonClick"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/DelButton">
+
+        <Button
+            android:id="@+id/DecButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="DecButtonClick"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="100dp"
+            app:cornerRadius="0dp"></Button>
+
+        <Button
+            android:id="@+id/IncButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="IncButtonClick"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:textSize="100dp"
+            app:cornerRadius="0dp"></Button>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
