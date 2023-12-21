@@ -1,0 +1,51 @@
+<!-- Добавляем ImageView и TextView для отображения стоимости и изображения товара -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_goodId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        />
+
+    <ImageView
+        android:id="@+id/iv_product_image"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/def"
+        android:contentDescription="Product Image"
+    />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            />
+
+        <TextView
+            android:id="@+id/tv_product_price"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:text="Price: $0.00"
+            />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        />
+</LinearLayout>
