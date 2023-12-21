@@ -1,0 +1,47 @@
+<!-- res/layout/fragment_update.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F08080"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alatsi"
+            android:text="by Vasilueva Uljana"
+            android:textSize="14sp"
+            android:gravity="right" android:textColor="#000000"/>
+    <EditText
+            android:id="@+id/noteIdEditText"
+    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/aleo_bold"
+            android:shadowColor="@color/black"
+            android:gravity="center"
+            android:hint="Введите номер заметки для обновления"
+            android:minHeight="48dp"/>
+
+    <EditText
+            android:id="@+id/newDescriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/aleo_bold"
+            android:gravity="center"
+            android:hint="Введите новое описание заметки"
+            android:minHeight="48dp"/>
+
+    <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#531CB5"
+            android:text="Обновить"
+            android:textSize="16sp" app:iconTint="#FFFFFF" android:textColor="#FFFFFF"/>
+
+</LinearLayout>

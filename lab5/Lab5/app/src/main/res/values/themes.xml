@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lab5" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/your_custom_primary_color</item> <!-- Задайте ваш цвет Primary -->
+        <item name="colorPrimaryVariant">@color/your_custom_primary_variant_color</item> <!-- Задайте ваш вариант Primary -->
+    </style>
+
+    <style name="Theme.Lab5" parent="Base.Theme.Lab5" />
+</resources>

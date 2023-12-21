@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/purple_200"
+    android:gravity="center_vertical|center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Memoria"
+        android:layout_marginBottom="300px"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/butStart"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:width="200dp"
+        android:background="@drawable/style"
+        android:text="@string/start" />
+
+    <Button
+     android:id="@+id/butSettings"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/style"
+     style="@style/ButtonText"
+     android:text="@string/settings"
+     android:width="200dp"
+     android:layout_margin="5dp"
+	/>
+      
+   <Button
+     android:id="@+id/butScore"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:background="@drawable/style"
+     style="@style/ButtonText"
+     android:text="@string/highscore"
+     android:width="200dp"
+     android:layout_margin="5dp"
+   />
+
+    <Button
+        android:id="@+id/butExit"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:width="200dp"
+        android:background="@drawable/style"
+        android:text="@string/exit" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:textAlignment="center"
+        android:text="MemoriaByVassiluevaUljana"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</LinearLayout>

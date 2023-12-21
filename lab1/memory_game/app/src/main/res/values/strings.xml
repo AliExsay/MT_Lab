@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MemoriaActivity!</string>
+    <string name="app_name">Memoria</string>
+    <string name="start">Старт</string>
+    <string name="settings">Настройки</string>
+    <string name="highscore">Рекорды</string>
+    <string name="exit">Выход</string> 
+	<string name="setTitle">Настройки</string>
+	<string name="Collection">Коллекция</string> 
+	<string name="Color">Цвет фона</string>
+	<string name="board_size">Размер поля</string>
+	
+	<string-array name="Collections">
+	    <item>animal</item>
+	    <item>monster</item>
+	    <item>space</item>
+	</string-array>
+	
+	<string-array name="CollectionsTitle">
+	    <item>Животные</item>
+	    <item>Монстры</item>
+		<item>Космос</item>
+	</string-array>
+	
+	<string-array name="Color">
+	    <item>#000000</item>
+	    <item>#5090FF</item>
+	    <item>#782144</item>
+	    <item>#56818E</item>
+	    <item>#FFFFFF</item>
+	    <item>#FFFFFF</item>
+	</string-array>
+	
+	<string-array name="ColorTitle">
+	    <item>Черный</item>
+	    <item>Синий</item>
+	    <item>Красный</item>
+	    <item>Зеленый</item>
+	    <item>Серый</item>
+	    <item>Белый</item>
+	</string-array>
+
+	<string-array name="pref_board_size_entries">
+		<item>2x2</item>
+		<item>4x4</item>
+		<item>6x6</item>
+	</string-array>
+
+	<string-array name="pref_board_size_entriesValues">
+		<item>2</item>
+		<item>4</item>
+		<item>6</item>
+	</string-array>
+	
+</resources>

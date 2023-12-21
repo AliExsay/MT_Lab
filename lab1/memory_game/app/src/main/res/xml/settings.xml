@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory
+        android:title="@string/setTitle">
+
+        <ListPreference android:key="PictureCollection"
+            android:title="@string/Collection"
+            android:entries="@array/CollectionsTitle"
+            android:entryValues="@array/Collections"
+            android:defaultValue="animal"
+           />
+
+        <ListPreference android:key="BackgroundColor"
+            android:title="@string/Color"
+            android:entries="@array/ColorTitle"
+            android:entryValues="@array/Color"
+            android:defaultValue="#000000"
+           />
+        <ListPreference android:key="key_board_size"
+            android:title="@string/board_size"
+            android:entries="@array/pref_board_size_entries"
+            android:dialogTitle="@string/board_size"
+            android:defaultValue="4"
+            android:entryValues="@array/pref_board_size_entriesValues"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
