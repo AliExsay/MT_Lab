@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:backgroundTint="@color/blue"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/camera_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="14dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:contentDescription="@string/camera_btn_description"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <ImageButton
+        android:id="@+id/gallery_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="14dp"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:contentDescription="@string/gallery_btn_description"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <ImageButton
+        android:id="@+id/media_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="14dp"
+        android:layout_weight="1"
+        android:background="@color/teal_700"
+        android:contentDescription="@string/media_btn_description"
+        android:src="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alatsi"
+        android:text="@string/footer"
+        android:textAlignment="center" />
+
+</LinearLayout>

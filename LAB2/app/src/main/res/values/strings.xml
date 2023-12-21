@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LAB2</string>
+    <string name="author">Marchuk AS-58</string>
+    <string name="load">LOAD LIST</string>
+    <string name="cardImg">Card Image</string>
+    <string name="btn_det">Detail Button</string>
+    <string name="like">Like Status</string>
+    <string name="btn_close">Close Button</string>
+    <string name="authorL">downloaded by Marchuk</string>
+    <string name="authorF">opened by Marchuk</string>
+</resources>
