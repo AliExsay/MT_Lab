@@ -1,0 +1,40 @@
+<!-- res/layout/fragment_add.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#B3FFB3"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alatsi"
+            android:text="by Bobko"
+            android:textSize="14sp"
+            android:gravity="right" android:textColor="#000000"/>
+
+    <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/aleo_bold"
+            android:gravity="center"
+            android:hint="Введите описание заметки"
+            android:minHeight="48dp" android:textColor="#000000" android:textColorHint="#000000"
+            android:textColorLink="#000000" android:backgroundTint="#000000"/>
+
+
+    <Button
+            android:id="@+id/addButton"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#531CB5"
+            android:fontFamily="@font/aleo_bold"
+            android:text="Добавить"
+            android:textSize="20sp"
+            android:gravity="center" android:textColor="#FFFFFF"/>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/buttonVideo"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:onClick="toVideo"
+            android:text="video"
+            android:layout_marginTop="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/buttonAudio"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/buttonVideo"
+            android:onClick="toAudio"
+            android:text="audio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonVideo" android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/buttonCamera"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/buttonAudio"
+            android:onClick="toCamera"
+            android:text="camera"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonAudio" android:layout_marginTop="8dp"/>
+
+    <Button
+            android:id="@+id/buttonGallery"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/buttonCamera"
+            android:onClick="toGallery"
+            android:text="gallery"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCamera" android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Developed by Bobko"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"/>
+    <TextView
+            android:text="Media Player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/buttonVideo" android:textSize="34sp" android:textColor="#000000"
+            android:fontFamily="@font/aclonica"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
