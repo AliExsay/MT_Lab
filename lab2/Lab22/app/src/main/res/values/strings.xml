@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Recipe Book</string>
+
+    //pasta
+
+    <string name="pastaIngredients">Chuck 70 High Top</string>
+    <string name="pastaDesc">The Chuck 70 is a re-crafted throwback that uses modern design to celebrate the original All Star from the 1970s. Things like more cushioning and thicker rubber let you rediscover that era of classic basketball off the court. It has the look and feel of a ‘70s-era court Chuck, but without the smell.;
+</string>
+
+    //maggi
+
+    <string name="maggiIngredients">Converse x DRKSHDW TURBOWPN High Top</string>
+
+    <string name="maggieDesc">CONVERSE x DRKSHDW Our ongoing collaboration with DRKSHDW is back with a new, two-tone edition of its transformative Converse Weapon redesign. With a rebellious mindset to break convention, Rick Owens exaggerates the proportions and distorts the lines of the legendary basketball sneaker—reworking the original’s iconic features to send it into another dimension. The result is a distinct design that sits at the intersection of court style and subversive fashion, pairing the edge of DRKSHDW boots with the infamous swagger of the Converse Weapon.</string>
+
+    //cake
+
+    <string name="cakeIngredients">Chuck Taylor All Star All Terrain Waterproof High Top</string>
+    <string name="cakeDesc">ALL-OUT EXPRESSION Feel cozy exploring your environment in style with the Chuck Taylor All Star All Terrain. Find a burst of on-the-go cozy with a quilted tongue that gives you visible comfort and warmth. Weather-resistant materials and hiker-inspired details, like round laces, a heel pull, and a traction outsole are ready for wherever your adventures take you this fall.</string>
+
+    //pancake
+
+    <string name="pancakeIngredients">Run Star Legacy Chelsea CX Mono High Top</string>
+    <string name="pancakeDesc">FUTURE FAVOURITE An evolution of the fan-favourite Run Star Hike, the Run Star Legacy Chelsea CX mixes bold platform styling with premium comfort and easy accessibility. A lightweight CX midsole and sockliner keep you light on your feet, while distorted Chuck Taylor design elements keep them guessing. A luxe take on the original, this edition pairs a monochrome, full-grain leather upper with a stretchy collar and zippered closure for everyday versatility.</string>
+
+    //pizza
+
+    <string name="pizzaIngredients">Converse x ADER ERROR Chuck 70 High Top</string>
+    <string name="pizzaDesc">CONVERSE x ADER ERROR Our ongoing collaboration with Seoul brand ADER ERROR brings their aesthetic of re-editing to the iconic Chuck 70. The distressed and layered design nod to the aged patina of well-worn Chucks and stays true to the brand’s distinct slogan and philosophy: but near missed things—looking to the past to create what’s next. The design features a distressed denim upper with roughed up overlays, splotches of ADER ERROR’s signature blue and distinct graphics and cobranded details. Converse x ADER ERROR: Create Next—the new is not new.</string>
+
+    //burgers
+
+    <string name="burgerIngredients">Run Star Motion CX Platform SGA High Top</string>
+    <string name="burgerDesc">ALL STAR PLATFORM An evolution of our most popular platform ever, the Run Star Hike, the new Run Star Motion takes your style even further. The iconic suede high top comes together with a bold, exaggerated outsole and wavy midsole detailing for a truly unique look. Ultra-comfortable CX foam cushioning provides premium comfort and support, and a Gilgeous-Alexander screen print on the tongue webbing pays homage to  </string>
+
+    //fries
+
+    <string name="friesIngredients">All Star BB Prototype CX Thunder  Lightning Mid Top</string>
+    <string name="friesDesc">STRIKE TWICE Mesh mixes with suede and rich, UV-activated gradient pops to give you breathable comfort and an elevated look that combines the best of sport and style. A hidden webbing lacing system delivers maximum support and containment while making moves. The TPU shank and forefoot adds stability, and the CX foam sockliner and midsole give you the support you need underfoot. Smooth moves.</string>
+
+</resources>
