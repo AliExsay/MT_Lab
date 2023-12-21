@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LAB2</string>
+    <string name="author">by KITSYLO</string>
+    <string name="load">LOAD LIST</string>
+    <string name="cardImg">Card Image</string>
+    <string name="btn_det">Detail Button</string>
+    <string name="like">Like Status</string>
+    <string name="btn_close">Close Button</string>
+    <string name="authorL">downloaded by KITSYLO</string>
+    <string name="authorF">opened by KITSYLO</string>
+</resources>

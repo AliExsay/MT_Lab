@@ -1,0 +1,38 @@
+<!-- res/layout/fragment_add.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D6AD"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alatsi"
+        android:gravity="center"
+        android:text="by KITSYLO"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/aleo_bold"
+        android:gravity="center"
+        android:hint="Введите описание заметки"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#675151"
+        android:fontFamily="@font/aleo_bold"
+        android:text="Добавить"
+        android:textSize="20sp" />
+</LinearLayout>

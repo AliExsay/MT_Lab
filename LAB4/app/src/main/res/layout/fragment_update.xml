@@ -1,0 +1,50 @@
+<!-- res/layout/fragment_update.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3C9C9"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/noteIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aleo_bold"
+        android:gravity="center"
+        android:hint="Введите номер заметки для обновления"
+        android:minHeight="48dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/newDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aleo_bold"
+        android:gravity="center"
+        android:hint="Введите новое описание заметки"
+        android:minHeight="48dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#8E6060"
+        android:text="Обновить"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alatsi"
+        android:gravity="center"
+        android:text="by KITSYLO"
+        android:textSize="20sp" />
+</LinearLayout>

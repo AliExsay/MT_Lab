@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_pinkL"
+    tools:context=".GameActivity">
+
+    <!-- TextView для отображения времени и количества ходов -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/timer"
+        android:textColor="@color/_red"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/movesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTextView"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/moves"
+        android:textColor="@color/_red"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
+
+    <!-- GridLayout для отображения карт -->
+    <GridView
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/movesTextView"
+        android:background="@color/_pinkL"
+        android:columnCount="4"
+        android:columnOrderPreserved="false"
+        android:gravity="center"
+        android:horizontalSpacing="8dp"
+        android:rowCount="4"
+        android:rowOrderPreserved="false"
+        android:verticalSpacing="8dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/author" />
+</RelativeLayout>
