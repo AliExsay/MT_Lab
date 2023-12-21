@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">memoria</string>
+    <string name="gameName">memoria</string>
+    <string name="author">Муха В.Ю. АС-58</string>
+    <string name="START">play :)</string>
+    <string name="EXIT">exit :(</string>
+    <string name="CD_card">CARD</string>
+    <string name="timer">Time: %1$s с</string>
+    <string name="moves">Steps: %1$d</string>
+</resources>

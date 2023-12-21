@@ -1,0 +1,43 @@
+<!-- res/layout/fragment_search_by_id.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70ABBF"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/searchByIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Введите номер заметки"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/searchByIdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#327496"
+        android:text="Поиск"
+        android:textColor="#C4BEB5"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="569dp"
+        android:layout_weight="1"
+        android:background="#70ABBF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alatsi"
+        android:gravity="right"
+        android:text="@string/Developer"
+        android:textColor="#C4BEB5"
+        android:textSize="14sp" />
+</LinearLayout>
