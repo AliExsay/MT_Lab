@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Recipe Book</string>
+
+    //pasta
+
+    <string name="pastaIngredients">ZZ6 EFI Deluxe</string>
+    <string name="pastaDesc">Chevrolet Performance engineers adapted a unique, electronically controlled port fuel-injection system to the ZZ6 350, using an aluminum intake manifold that has the appearance of a carbureted intake. A fuel-injection throttle body mounted in place of the carburetor allows a traditional air filter to be installed on the engine. The Deluxe package includes the distributor, damper, and flexplate. ;
+</string>
+
+    //maggi
+
+    <string name="maggiIngredients">ZZ502/502 Deluxe</string>
+
+    <string name="maggieDesc">From the street to the strip, the 508-horsepower ZZ502/502 Deluxe is the most popular big-block crate engine. Available with either the T56 Super Magnum 6-speed manual or 4L85-E 4-speed automatic, its popularity might be matched only by the ease of installation provided by its complete Connect  Cruise package.</string>
+
+    //cake
+
+    <string name="cakeIngredients">ZZ427/480</string>
+    <string name="cakeDesc">Legendary big-block performance starts with the 480-horsepower Z427/480. A smoother hydraulic roller and the control of either the T56 Super Magnum 6-speed manual or 4L70-E 4-speed automatic make this complete package an easy way to bring heritage-inspired crate-engine performance to your project.</string>
+
+    //pancake
+
+    <string name="pancakeIngredients">ZZ6 Turn-Key</string>
+    <string name="pancakeDesc">You can help write the next chapter of Chevrolet Performance history with the 405 horsepower ZZ6 Turn-Key V8. Available with the Hydra-Matic 4L65-E 4-speed automatic transmission, this convenient Connect  Cruise system combines 60 years of Small-Block heritage and surprising ease of installation.</string>
+
+    //pizza
+
+    <string name="pizzaIngredients">SP383 EFI Turn-Key</string>
+    <string name="pizzaDesc">A classic small-block with EFI, the SP383 EFI Turn-Key is built for big torque with modern convenience. The throttle body, starter, fuel pump, air conditioning pump, alternator, single-belt front-end accessory drive system, and more are also included in the kit. Paired to the 4L70-E or world-class T56 Super Magnum 6-speed manual transmission, this package offers thrilling controlled performance with ultimate convenience.</string>
+
+    //burgers
+
+    <string name="burgerIngredients">ZZ572/620 Deluxe</string>
+    <string name="burgerDesc">The ZZ572/620 Deluxe is our most powerful Big-Block street engine, combining 621 horsepower with legendary 572 style. Matched to either the heavy-duty T56 Super Magnum 6-speed manual or a 4L85-E 4-speed automatic in a complete, convenient Connect  Cruise package, its instant street cred is just an easy installation away. </string>
+
+    //fries
+
+    <string name="friesIngredients">SP383 EFI Deluxe</string>
+    <string name="friesDesc">It’s hard to beat a classic “stroker” with the driving convenience of electronic fuel injection. Paired to the 4L70-E or world-class T56 Super Magnum 6-speed manual transmission, this package offers thrilling controlled performance with ultimate convenience.</string>
+
+</resources>
